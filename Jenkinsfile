@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-               build "continuous-delivery-demo"
+               build "feature-history"
             }
         }
         }
